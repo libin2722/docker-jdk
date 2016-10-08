@@ -15,5 +15,3 @@ ENV JRE_HOME /usr/lib/jvm/jre-${JAVA_VERSION}-openjdk
 ADD docker.repo /etc/yum.repos.d/docker.repo
 
 RUN yum install -y java-${JAVA_VERSION}-openjdk java-${JAVA_VERSION}-openjdk-devel
-
-
