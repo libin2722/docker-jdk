@@ -4,7 +4,8 @@
 #
 # Dockerizing JDK: Dockerfile for building CentOS images
 #
-FROM       daocloud.io/libin2722/centos:latest
+#FROM       daocloud.io/libin2722/centos:latest
+FROM registry.cn-hangzhou.aliyuncs.com/libin2722/centos:latest
 MAINTAINER Terry.Li,<libin2722@sohu.com>
 
 ENV JAVA_VERSION 1.8.0
